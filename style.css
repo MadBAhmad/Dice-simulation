@@ -1,0 +1,36 @@
+.container{
+    width: 360px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    text-align: center;
+    margin: 100px auto;
+}
+.dice{
+    width: 60px;
+    height: 60px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    border-radius: 12px;
+    margin: 15px auto;
+}
+.btn{
+    padding: 10px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 15px;
+}
+.spin{
+    animation-name: spin;
+    animation-duration: .5s;
+}
+@keyframes spin{
+    to{
+        transform: rotate(360deg);
+    }
+}
